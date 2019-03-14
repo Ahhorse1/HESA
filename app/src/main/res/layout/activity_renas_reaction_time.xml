@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/QuantityPurchased5"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="175dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/continuebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/KWH5"
+        app:layout_constraintTop_toBottomOf="@+id/QuantityPurchased4" />
+
+    <EditText
+        android:id="@+id/Quantity5"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="241dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/KWH5"
+        app:layout_constraintStart_toEndOf="@+id/air_conditioning"
+        app:layout_constraintTop_toBottomOf="@+id/Quantity4" />
+
+    <EditText
+        android:id="@+id/KWH5"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="241dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased5"
+        app:layout_constraintStart_toEndOf="@+id/Quantity5"
+        app:layout_constraintTop_toBottomOf="@+id/KWH4" />
+
+    <EditText
+        android:id="@+id/QuantityPurchased3"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/QuantityPurchased4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/KWH3"
+        app:layout_constraintTop_toBottomOf="@+id/QuantityPurchased2" />
+
+    <EditText
+        android:id="@+id/KWH3"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/KWH4"
+        app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased3"
+        app:layout_constraintStart_toEndOf="@+id/Quantity3"
+        app:layout_constraintTop_toBottomOf="@+id/KWH2" />
+
+    <EditText
+        android:id="@+id/Quantity3"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/Quantity4"
+        app:layout_constraintEnd_toStartOf="@+id/KWH3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/refrigerators"
+        app:layout_constraintTop_toBottomOf="@+id/Quantity2" />
+
+    <EditText
+        android:id="@+id/Quantity4"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/Quantity5"
+        app:layout_constraintEnd_toStartOf="@+id/KWH4"
+        app:layout_constraintStart_toEndOf="@+id/dishwashers"
+        app:layout_constraintTop_toBottomOf="@+id/Quantity3" />
+
+    <EditText
+        android:id="@+id/QuantityPurchased4"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/QuantityPurchased5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/KWH4"
+        app:layout_constraintTop_toBottomOf="@+id/QuantityPurchased3" />
+
+    <EditText
+        android:id="@+id/KWH4"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/KWH5"
+        app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased4"
+        app:layout_constraintStart_toEndOf="@+id/Quantity4"
+        app:layout_constraintTop_toBottomOf="@+id/KWH3" />
+
+    <EditText
+        android:id="@+id/QuantityPurchased2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/QuantityPurchased3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/KWH2"
+        app:layout_constraintTop_toBottomOf="@+id/QuantityPurchased1" />
+
+    <EditText
+        android:id="@+id/KWH2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/KWH3"
+        app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased2"
+        app:layout_constraintStart_toEndOf="@+id/Quantity2"
+        app:layout_constraintTop_toBottomOf="@+id/KWH1" />
+
+    <EditText
+        android:id="@+id/Quantity2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/Quantity3"
+        app:layout_constraintEnd_toStartOf="@+id/KWH2"
+        app:layout_constraintStart_toEndOf="@+id/dryers"
+        app:layout_constraintTop_toBottomOf="@+id/Quantity1" />
+
+    <EditText
+        android:id="@+id/Quantity1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/Quantity2"
+        app:layout_constraintEnd_toStartOf="@+id/KWH1"
+        app:layout_constraintStart_toEndOf="@+id/washing_machine"
+        app:layout_constraintTop_toBottomOf="@+id/QuantityTable"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="379dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="641dp"
+        android:text="@string/rena_s_reaction_time"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-condensed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/washing_machine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="55dp"
+        android:text="@string/washing_machines"
+        app:layout_constraintBottom_toTopOf="@+id/dryers"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <TextView
+        android:id="@+id/dryers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/dryers"
+        app:layout_constraintBottom_toTopOf="@+id/refrigerators"
+        app:layout_constraintEnd_toStartOf="@+id/refrigerators"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/washing_machine" />
+
+    <TextView
+        android:id="@+id/refrigerators"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginRight="280dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/refrigerators"
+        app:layout_constraintBottom_toTopOf="@+id/dishwashers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dryers" />
+
+    <TextView
+        android:id="@+id/dishwashers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="282dp"
+        android:layout_marginRight="282dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/dishwashers"
+        app:layout_constraintBottom_toTopOf="@+id/air_conditioning"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/refrigerators" />
+
+    <TextView
+        android:id="@+id/air_conditioning"
+        android:layout_width="104dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="242dp"
+        android:text="@string/light_bulbs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dishwashers" />
+
+    <TextView
+        android:id="@+id/QuantityTable"
+        android:layout_width="58dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="460dp"
+        android:text="@string/quantity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/KwhTable"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/KwhTable"
+        android:layout_width="60dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="460dp"
+        android:text="@string/kw_h"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/NumberPurchasingTable"
+        app:layout_constraintStart_toEndOf="@+id/QuantityTable"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/NumberPurchasingTable"
+        android:layout_width="112dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="440dp"
+        android:text="@string/number_you_wish_to_purchase"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/KwhTable"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/QuantityPurchased1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/QuantityPurchased2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/KWH1"
+        app:layout_constraintTop_toBottomOf="@+id/KwhTable" />
+
+    <EditText
+        android:id="@+id/KWH1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/KWH2"
+        app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased1"
+        app:layout_constraintStart_toEndOf="@+id/Quantity1"
+        app:layout_constraintTop_toBottomOf="@+id/KwhTable"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/continuebutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="305dp"
+        android:layout_marginLeft="305dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="17dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="366dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="73dp"
+        android:text="If you have multiple of a type of appliances and know their KW/H, please enter the total for all of them. For example, if you have 3 of the same washing machines that consume 30 KW/H, please enter 90 KW/H and 3 for quantity in the Washing Machines Line. "
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="15sp"
+        app:fontFamily="sans-serif-medium"
+        app:layout_constraintBottom_toTopOf="@+id/continuebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/air_conditioning" />
+
+</android.support.constraint.ConstraintLayout>

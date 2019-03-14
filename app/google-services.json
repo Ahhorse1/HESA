@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1057805130805",
+    "firebase_url": "https://hesa-62cf5.firebaseio.com",
+    "project_id": "hesa-62cf5",
+    "storage_bucket": "hesa-62cf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057805130805:android:72695dcdbd0232a1",
+        "android_client_info": {
+          "package_name": "com.example.hesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057805130805-udso72rb9798922obj3asr3e82428a9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hesa",
+            "certificate_hash": "3f933d5c4256e0d9951c9b81efffdee05a87c743"
+          }
+        },
+        {
+          "client_id": "1057805130805-sugu5latd1bcfudctd4hlngf6bh620gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOmTq5oIqGzosF6cgmF-321DJvJKcf_xw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057805130805-sugu5latd1bcfudctd4hlngf6bh620gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
