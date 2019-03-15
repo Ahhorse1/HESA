@@ -5,9 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
-public class RenasReactionTime extends MainActivity {
+public class ApplianceSpecifics extends MainActivity {
     Button next1;
 
     EditText Quantity1;
@@ -28,7 +27,7 @@ public class RenasReactionTime extends MainActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_renas_reaction_time);
+        setContentView(R.layout.input_screen_two);
         Quantity1 = (EditText) findViewById(R.id.Quantity1);
         Quantity2 = (EditText) findViewById(R.id.Quantity2);
         Quantity3 = (EditText) findViewById(R.id.Quantity3);
@@ -62,14 +61,15 @@ public class RenasReactionTime extends MainActivity {
                 ApplianceInput[2][2] = Integer.valueOf(QuantityPurchased3.getText().toString());
                 ApplianceInput[3][2] = Integer.valueOf(QuantityPurchased4.getText().toString());
                 ApplianceInput[4][2] = Integer.valueOf(QuantityPurchased5.getText().toString());
-                showToast(String.valueOf(ApplianceInput[0][0]));
-                Intent BenIsBoring = new Intent(RenasReactionTime.this,WinstonIsOnTikTok.class);
+                // showToast(String.valueOf(ApplianceInput[0][0]));
+                Intent BenIsBoring = new Intent(ApplianceSpecifics.this, ApplianceRecommendation.class);
                 startActivity(BenIsBoring);
                 // Code here executes on main thread after user presses button
             }
         });
     }
-    private void showToast(String a){
-        Toast.makeText(RenasReactionTime.this, a, Toast.LENGTH_SHORT).show();
+    /* private void showToast(String a){
+        Toast.makeText(ApplianceSpecifics.this, a, Toast.LENGTH_SHORT).show();
     }
+    */
 }

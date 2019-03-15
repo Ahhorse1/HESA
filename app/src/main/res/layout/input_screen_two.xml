@@ -365,7 +365,7 @@
         android:layout_marginEnd="29dp"
         android:layout_marginRight="29dp"
         android:layout_marginBottom="73dp"
-        android:text="If you have multiple of a type of appliances and know their KW/H, please enter the total for all of them. For example, if you have 3 of the same washing machines that consume 30 KW/H, please enter 90 KW/H and 3 for quantity in the Washing Machines Line. "
+        android:text="@string/HelpLine"
         android:textAppearance="@style/TextAppearance.AppCompat.Caption"
         android:textSize="15sp"
         app:fontFamily="sans-serif-medium"

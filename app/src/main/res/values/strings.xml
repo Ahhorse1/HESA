@@ -3,9 +3,7 @@
     <string name="app_starting_s">App Starting S</string>
     <string name="h_e_s_a">HESA</string>
     <string name="please_select_all_the_appliances_you_wish_to_purchase">Please Select ALL the Appliances you wish to purchase</string>
-    <string name="welcome_to_the_home_energy_saving_application">Welcome to the Home Energy Saving Application!</string>
-    <string name="click_here_to_start_saving">Click HERE to start saving!</string>
-    <string name="our_goal_is_to_help_you_save_money_by_finding_the_best_energy_saving_appliances_within_your_budget_to_replace_your_older_appliances">Our goal is to help you save money by finding the best energy saving appliances within your budget to replace your older appliances.</string>
+    <string name="our_goal_is_to_help_you_save_money_by_finding_the_best_energy_saving_appliances_within_your_budget_to_replace_your_older_appliances">This App was Created by JC Yan, Winston Basso-Schricker, Emma Wang, and Ben Underwood for CBus StudentHack 2019.</string>
     <string name="washing_machines">Washing Machines</string>
     <string name="dryers">Dryers</string>
     <string name="refrigerators">Refrigerators</string>
@@ -18,8 +16,8 @@
     <string name="if_you_know_the_specifics_regarding_your_appliance_such_as_the_kilowatt_consumption_per_hour_kw_h">Enter Total Budget</string>
     <string name="if_not">If not</string>
     <string name="continue_without_specifications">Continue without Specifications</string>
-    <string name="start">Start</string>
-    <string name="about">About</string>
+    <string name="start">Start Saving</string>
+    <string name="about">About The App</string>
     <string name="rena_s_reaction_time">Please enter the number of each appliances you have and if possible the consumption kilowatt per hour (KW/H) of the product. If you do not know this number, please enter 0.</string>
     <string name="if_possible_enter_the_number_of_appliances_you_have_along_with_the_kilowatt_per_hour">Based on your inputs, these are our recommendations for the most efficient products :</string>
     <string name="quantity">Quantity</string>
@@ -27,4 +25,6 @@
     <string name="kw_h">| KW/H</string>
     <string name="home">Home</string>
     <string name="go_back">Go Back</string>
+    <string name="firstdescription">HESA or Home Energy Saving Application was created to help homeowners find the most energy saving appliances to replace their current ones. Currently, Americans waste about $130 billion a year just from energy (According to Energy Research Center). Around 75,000 American homes waste as much energy a year as the BP Oil Spill in 2010! By entering data from your current appliances, HESA can help you determine the best appliances to purchase that will not only help reduce this wasted energy but also help you save money!</string>
+    <string name="HelpLine">If you have multiple of a type of appliances and know their KW/H, please enter the total for all of them. For example, if you have 3 of the same washing machines that consume 30 KW/H each, please enter 90 KW/H and 3 for quantity in the Washing Machines Line.</string>
 </resources>

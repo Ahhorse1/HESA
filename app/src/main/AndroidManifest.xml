@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AviEatsPaper"></activity>
-        <activity android:name=".MakeUpWinston"></activity>
-        <activity android:name=".WinstonIsOnTikTok"></activity>
-        <activity android:name=".RenasReactionTime"></activity>
+        <activity android:name=".ApplianceQuery"></activity>
+        <activity android:name=".AboutPage"></activity>
+        <activity android:name=".ApplianceRecommendation"></activity>
+        <activity android:name=".ApplianceSpecifics"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
