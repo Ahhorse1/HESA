@@ -48,34 +48,34 @@ public class ApplianceSpecifics extends MainActivity {
             public void onClick(View v) {
                 if((Quantity1.getText().toString()).length()>0)
                 ApplianceInput[0][0] = Integer.valueOf(Quantity1.getText().toString());
-                if((Quantity2.getText().toString()).length()>0)
-                ApplianceInput[1][0] = Integer.valueOf(Quantity2.getText().toString());
                 if((Quantity3.getText().toString()).length()>0)
-                ApplianceInput[2][0] = Integer.valueOf(Quantity3.getText().toString());
+                ApplianceInput[1][0] = Integer.valueOf(Quantity3.getText().toString());
                 if((Quantity4.getText().toString()).length()>0)
-                ApplianceInput[3][0] = Integer.valueOf(Quantity4.getText().toString());
+                ApplianceInput[2][0] = Integer.valueOf(Quantity4.getText().toString());
                 if((Quantity5.getText().toString()).length()>0)
-                ApplianceInput[4][0] = Integer.valueOf(Quantity5.getText().toString());
+                ApplianceInput[3][0] = Integer.valueOf(Quantity5.getText().toString());
+                if((Quantity2.getText().toString()).length()>0)
+                ApplianceInput[4][0] = Integer.valueOf(Quantity2.getText().toString());
                 if((KWH1.getText().toString()).length()>0)
                 ApplianceInput[0][1] = Integer.valueOf(KWH1.getText().toString());
-                if((KWH2.getText().toString()).length()>0)
-                ApplianceInput[1][1] = Integer.valueOf(KWH2.getText().toString());
                 if((KWH3.getText().toString()).length()>0)
-                ApplianceInput[2][1] = Integer.valueOf(KWH3.getText().toString());
+                ApplianceInput[1][1] = Integer.valueOf(KWH3.getText().toString());
                 if((KWH4.getText().toString()).length()>0)
-                ApplianceInput[3][1] = Integer.valueOf(KWH4.getText().toString());
+                ApplianceInput[2][1] = Integer.valueOf(KWH4.getText().toString());
                 if((KWH5.getText().toString()).length()>0)
-                ApplianceInput[4][1] = Integer.valueOf(KWH5.getText().toString());
+                ApplianceInput[3][1] = Integer.valueOf(KWH5.getText().toString());
+                if((KWH2.getText().toString()).length()>0)
+                ApplianceInput[4][1] = Integer.valueOf(KWH2.getText().toString());
                 if((QuantityPurchased1.getText().toString()).length()>0)
                 ApplianceInput[0][2] = Integer.valueOf(QuantityPurchased1.getText().toString());
-                if((QuantityPurchased2.getText().toString()).length()>0)
-                ApplianceInput[1][2] = Integer.valueOf(QuantityPurchased2.getText().toString());
                 if((QuantityPurchased3.getText().toString()).length()>0)
-                ApplianceInput[2][2] = Integer.valueOf(QuantityPurchased3.getText().toString());
+                ApplianceInput[1][2] = Integer.valueOf(QuantityPurchased3.getText().toString());
                 if((QuantityPurchased4.getText().toString()).length()>0)
-                ApplianceInput[3][2] = Integer.valueOf(QuantityPurchased4.getText().toString());
+                ApplianceInput[2][2] = Integer.valueOf(QuantityPurchased4.getText().toString());
                 if((QuantityPurchased5.getText().toString()).length()>0)
-                ApplianceInput[4][2] = Integer.valueOf(QuantityPurchased5.getText().toString());
+                ApplianceInput[3][2] = Integer.valueOf(QuantityPurchased5.getText().toString());
+                if((QuantityPurchased2.getText().toString()).length()>0)
+                ApplianceInput[4][2] = Integer.valueOf(QuantityPurchased2.getText().toString());
                 // showToast(String.valueOf(ApplianceInput[0][0]));
                 Intent BenIsBoring = new Intent(ApplianceSpecifics.this, ApplianceRecommendation.class);
                 startActivity(BenIsBoring);

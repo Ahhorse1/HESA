@@ -158,7 +158,6 @@
         android:layout_marginBottom="84dp"
         android:ems="10"
         android:hint="Budget"
-        android:importantForAutofill="no"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     Button AboutButton;
     public static ArrayList<String> selections = new ArrayList<String>();
     public static int[][] ApplianceInput = new int[5][3];
+    public static int budget;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

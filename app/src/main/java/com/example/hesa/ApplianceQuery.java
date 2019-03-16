@@ -5,9 +5,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 
 public class ApplianceQuery extends MainActivity {
     Button next1;
+    EditText budget1;
     public void selectItem(View view){
         boolean checked = ((CheckBox) view).isChecked();
         switch(view.getId()) {
@@ -58,11 +60,13 @@ public class ApplianceQuery extends MainActivity {
         for(int a = selections.size(); a > 0; a--)
             selections.remove(a);
         super.onCreate(savedInstanceState);
+        budget1 = (EditText) findViewById(R.id.budget);
         setContentView(R.layout.input_screen_one);
         // final_text = (TextView)(findViewById(R.id.final_result));
         next1=findViewById(R.id.NextButton1);
         next1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                budget = Integer.valueOf(budget1.getText().toString());
                 Intent BenIsBoring = new Intent(ApplianceQuery.this, ApplianceSpecifics.class);
                 startActivity(BenIsBoring);
                 // Code here executes on main thread after user presses button

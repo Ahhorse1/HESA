@@ -27,4 +27,5 @@
     <string name="go_back">Go Back</string>
     <string name="firstdescription">HESA or Home Energy Saving Application was created to help homeowners find the most energy saving appliances to replace their current ones. Currently, Americans waste about $130 billion a year just from energy (According to Energy Research Center). Around 75,000 American homes waste as much energy a year as the BP Oil Spill in 2010! By entering data from your current appliances, HESA can help you determine the best appliances to purchase that will not only help reduce this wasted energy but also help you save money!</string>
     <string name="HelpLine">If you have multiple of a type of appliances and know their KW/H, please enter the total for all of them. For example, if you have 3 of the same washing machines that consume 30 KW/H each, please enter 90 KW/H and 3 for quantity in the Washing Machines Line.</string>
+    <string name="recommendations">our recommendations</string>
 </resources>
