@@ -5,11 +5,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.EditText;
+import android.widget.Toast;
 
 public class ApplianceQuery extends MainActivity {
     Button next1;
-    EditText budget1;
+    // EditText budget5;
     public void selectItem(View view){
         boolean checked = ((CheckBox) view).isChecked();
         switch(view.getId()) {
@@ -57,20 +57,25 @@ public class ApplianceQuery extends MainActivity {
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        for(int a = selections.size(); a > 0; a--)
-            selections.remove(a);
+        // budget5 = (EditText) findViewById(R.id.budgetInput);
+        selections.clear();
         super.onCreate(savedInstanceState);
-        budget1 = (EditText) findViewById(R.id.budget);
         setContentView(R.layout.input_screen_one);
         // final_text = (TextView)(findViewById(R.id.final_result));
         next1=findViewById(R.id.NextButton1);
         next1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                budget = Integer.valueOf(budget1.getText().toString());
+                // if((budget5.getText().toString()).length()>0) {
+                    // budget = Integer.valueOf(budget5.getText().toString());
+                    // showToast(String.valueOf(budget5.getText().toString()));
+                // }
                 Intent BenIsBoring = new Intent(ApplianceQuery.this, ApplianceSpecifics.class);
                 startActivity(BenIsBoring);
                 // Code here executes on main thread after user presses button
             }
         });
+    }
+    private void showToast(String a){
+        Toast.makeText(ApplianceQuery.this, a, Toast.LENGTH_SHORT).show();
     }
 }
