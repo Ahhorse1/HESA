@@ -7,69 +7,31 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/QuantityPurchased5"
+        android:id="@+id/Quantity1"
         android:layout_width="60dp"
         android:layout_height="40dp"
-        android:layout_marginEnd="80dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginBottom="175dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/continuebutton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/KWH5"
-        app:layout_constraintTop_toBottomOf="@+id/QuantityPurchased4" />
+        app:layout_constraintBottom_toTopOf="@+id/Quantity2"
+        app:layout_constraintEnd_toStartOf="@+id/KWH1"
+        app:layout_constraintStart_toEndOf="@+id/washing_machine"
+        app:layout_constraintTop_toBottomOf="@+id/QuantityTable"
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <EditText
-        android:id="@+id/Quantity5"
+        android:id="@+id/Quantity2"
         android:layout_width="60dp"
         android:layout_height="40dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginBottom="241dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/KWH5"
-        app:layout_constraintStart_toEndOf="@+id/air_conditioning"
-        app:layout_constraintTop_toBottomOf="@+id/Quantity4" />
-
-    <EditText
-        android:id="@+id/KWH5"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="241dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased5"
-        app:layout_constraintStart_toEndOf="@+id/Quantity5"
-        app:layout_constraintTop_toBottomOf="@+id/KWH4" />
-
-    <EditText
-        android:id="@+id/QuantityPurchased3"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="79dp"
-        android:layout_marginRight="79dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/QuantityPurchased4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/KWH3"
-        app:layout_constraintTop_toBottomOf="@+id/QuantityPurchased2" />
-
-    <EditText
-        android:id="@+id/KWH3"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/KWH4"
-        app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased3"
-        app:layout_constraintStart_toEndOf="@+id/Quantity3"
-        app:layout_constraintTop_toBottomOf="@+id/KWH2" />
+        app:layout_constraintBottom_toTopOf="@+id/Quantity3"
+        app:layout_constraintEnd_toStartOf="@+id/KWH2"
+        app:layout_constraintStart_toEndOf="@+id/dryers"
+        app:layout_constraintTop_toBottomOf="@+id/Quantity1" />
 
     <EditText
         android:id="@+id/Quantity3"
@@ -99,17 +61,52 @@
         app:layout_constraintTop_toBottomOf="@+id/Quantity3" />
 
     <EditText
-        android:id="@+id/QuantityPurchased4"
+        android:id="@+id/Quantity5"
         android:layout_width="60dp"
         android:layout_height="40dp"
-        android:layout_marginEnd="79dp"
-        android:layout_marginRight="79dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="241dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/QuantityPurchased5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/KWH4"
-        app:layout_constraintTop_toBottomOf="@+id/QuantityPurchased3" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/KWH5"
+        app:layout_constraintStart_toEndOf="@+id/air_conditioning"
+        app:layout_constraintTop_toBottomOf="@+id/Quantity4" />
+
+    <EditText
+        android:id="@+id/KWH1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/KWH2"
+        app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased1"
+        app:layout_constraintStart_toEndOf="@+id/Quantity1"
+        app:layout_constraintTop_toBottomOf="@+id/KwhTable"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/KWH2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/KWH3"
+        app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased2"
+        app:layout_constraintStart_toEndOf="@+id/Quantity2"
+        app:layout_constraintTop_toBottomOf="@+id/KWH1" />
+
+    <EditText
+        android:id="@+id/KWH3"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/KWH4"
+        app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased3"
+        app:layout_constraintStart_toEndOf="@+id/Quantity3"
+        app:layout_constraintTop_toBottomOf="@+id/KWH2" />
 
     <EditText
         android:id="@+id/KWH4"
@@ -121,6 +118,31 @@
         app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased4"
         app:layout_constraintStart_toEndOf="@+id/Quantity4"
         app:layout_constraintTop_toBottomOf="@+id/KWH3" />
+
+    <EditText
+        android:id="@+id/KWH5"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="241dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased5"
+        app:layout_constraintStart_toEndOf="@+id/Quantity5"
+        app:layout_constraintTop_toBottomOf="@+id/KWH4" />
+
+    <EditText
+        android:id="@+id/QuantityPurchased1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/QuantityPurchased2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/KWH1"
+        app:layout_constraintTop_toBottomOf="@+id/KwhTable" />
 
     <EditText
         android:id="@+id/QuantityPurchased2"
@@ -136,42 +158,81 @@
         app:layout_constraintTop_toBottomOf="@+id/QuantityPurchased1" />
 
     <EditText
-        android:id="@+id/KWH2"
+        android:id="@+id/QuantityPurchased3"
         android:layout_width="60dp"
         android:layout_height="40dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/KWH3"
-        app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased2"
-        app:layout_constraintStart_toEndOf="@+id/Quantity2"
-        app:layout_constraintTop_toBottomOf="@+id/KWH1" />
+        app:layout_constraintBottom_toTopOf="@+id/QuantityPurchased4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/KWH3"
+        app:layout_constraintTop_toBottomOf="@+id/QuantityPurchased2" />
 
     <EditText
-        android:id="@+id/Quantity2"
+        android:id="@+id/QuantityPurchased4"
         android:layout_width="60dp"
         android:layout_height="40dp"
-        android:layout_marginStart="95dp"
-        android:layout_marginLeft="95dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/Quantity3"
-        app:layout_constraintEnd_toStartOf="@+id/KWH2"
-        app:layout_constraintStart_toEndOf="@+id/dryers"
-        app:layout_constraintTop_toBottomOf="@+id/Quantity1" />
+        app:layout_constraintBottom_toTopOf="@+id/QuantityPurchased5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/KWH4"
+        app:layout_constraintTop_toBottomOf="@+id/QuantityPurchased3" />
 
     <EditText
-        android:id="@+id/Quantity1"
+        android:id="@+id/QuantityPurchased5"
         android:layout_width="60dp"
         android:layout_height="40dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="175dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/continuebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/KWH5"
+        app:layout_constraintTop_toBottomOf="@+id/QuantityPurchased4" />
+
+    <EditText
+        android:id="@+id/TotalBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginRight="182dp"
+        android:layout_marginBottom="70dp"
         android:ems="10"
+        android:hint="@string/total_budget"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/Quantity2"
-        app:layout_constraintEnd_toStartOf="@+id/KWH1"
-        app:layout_constraintStart_toEndOf="@+id/washing_machine"
-        app:layout_constraintTop_toBottomOf="@+id/QuantityTable"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/continuebutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="305dp"
+        android:layout_marginLeft="305dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="17dp"
+        android:text="@string/next1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
@@ -281,6 +342,7 @@
         android:text="@string/quantity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/KwhTable"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="0.0" />
@@ -313,47 +375,6 @@
         app:layout_constraintStart_toEndOf="@+id/KwhTable"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="0.0" />
-
-    <EditText
-        android:id="@+id/QuantityPurchased1"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="79dp"
-        android:layout_marginRight="79dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/QuantityPurchased2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/KWH1"
-        app:layout_constraintTop_toBottomOf="@+id/KwhTable" />
-
-    <EditText
-        android:id="@+id/KWH1"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/KWH2"
-        app:layout_constraintEnd_toStartOf="@+id/QuantityPurchased1"
-        app:layout_constraintStart_toEndOf="@+id/Quantity1"
-        app:layout_constraintTop_toBottomOf="@+id/KwhTable"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/continuebutton"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="305dp"
-        android:layout_marginLeft="305dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
-        android:layout_marginBottom="17dp"
-        android:text="Next"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView7"
@@ -389,25 +410,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-    <EditText
-        android:id="@+id/TotalBudget"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="182dp"
-        android:layout_marginRight="182dp"
-        android:layout_marginBottom="70dp"
-        android:ems="10"
-        android:hint="@string/total_budget"
-        android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
-        app:layout_constraintVertical_bias="1.0" />
 
 </android.support.constraint.ConstraintLayout>

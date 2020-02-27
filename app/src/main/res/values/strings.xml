@@ -18,18 +18,19 @@
     <string name="continue_without_specifications">Continue without Specifications</string>
     <string name="start">Start Saving</string>
     <string name="about">About The App</string>
-    <string name="rena_s_reaction_time">Please enter the number of each appliances you have and if possible the consumption kilowatt per hour (KW/H) of the product. If you do not know this number, please enter 1000.</string>
+    <string name="rena_s_reaction_time">Please enter the number of each appliances you have and if possible the consumption kilowatt per hour (KWh/Year) of the product. If you do not know this number, please enter 1000.</string>
     <string name="if_possible_enter_the_number_of_appliances_you_have_along_with_the_kilowatt_per_hour">Based on your inputs, these are our recommendations for the most efficient products :</string>
     <string name="quantity">Quantity</string>
     <string name="number_you_wish_to_purchase">Number You Wish to Purchase</string>
-    <string name="kw_h">| KW/H</string>
+    <string name="kw_h">KWh/Year</string>
     <string name="home">Home</string>
     <string name="go_back">Go Back</string>
     <string name="firstdescription">HESA or Home Energy Saving Application was created to help homeowners find the most energy saving appliances to replace their current ones. Currently, Americans waste about $130 billion a year just from energy (According to Energy Research Center). Around 75,000 American homes waste as much energy a year as the BP Oil Spill in 2010! By entering data from your current appliances, HESA can help you determine the best appliances to purchase that will not only help reduce this wasted energy but also help you save money!</string>
-    <string name="HelpLine">If you have multiple of a type of appliances and know their KW/H, please enter the total for all of them. For example, if you have 3 of the same washing machines that consume 30 KW/H each, please enter 90 KW/H and 3 for quantity in the Washing Machines Line.</string>
+    <string name="HelpLine">If you have multiple of a type of appliances and know their KWh/Year, please enter the total for all of them. For example, if you have 3 of the same washing machines that consume 3000 KW/Year each, please enter 9000 KW/Year and 3 for quantity in the Washing Machines Line.</string>
     <string name="recommendations">our recommendations</string>
     <string name="budget">Budget</string>
     <string name="enter_total_budget">Enter Total Budget</string>
     <string name="total_budget">Total Budget</string>
-    <string name="click_on_this_button_repeatly_to_view_recommendation">Click On This Button Repeatly to View Recommendation</string>
+    <string name="click_on_this_button_repeatly_to_view_recommendation">Click On This Button to View Your Recommendation</string>
+    <string name="next1">Next</string>
 </resources>

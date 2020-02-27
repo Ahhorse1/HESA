@@ -61,7 +61,8 @@ public class ApplianceRecommendation extends MainActivity {
         dopebutton = findViewById(R.id.JankButton);
         dopebutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                showToast(test);
+                tv_result = (TextView) findViewById(R.id.tv_result);
+                tv_result.setText(test);
             }
         });
         next1=findViewById(R.id.button);

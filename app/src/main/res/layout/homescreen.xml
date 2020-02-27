@@ -68,7 +68,7 @@
 
     <Button
         android:id="@+id/nextb"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
         android:layout_marginLeft="161dp"
@@ -84,7 +84,7 @@
 
     <Button
         android:id="@+id/aboutb"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
         android:layout_marginLeft="161dp"
